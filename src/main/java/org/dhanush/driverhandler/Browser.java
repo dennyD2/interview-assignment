@@ -4,7 +4,6 @@ import java.util.Optional;
 
 public enum Browser {
     CHROME, FIREFOX;
-    //Study enum and methods inside enum
 
     public static Browser getBrowser(){
         String browser=null;

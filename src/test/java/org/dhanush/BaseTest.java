@@ -10,7 +10,7 @@ public class BaseTest {
 
     @BeforeSuite
     public void setBrowser(){
-        manager = DriverFactory.getDriverManager();//new ChromeManager();
+        manager = DriverFactory.getDriverManager();
         manager.setUpDriver();
     }
 

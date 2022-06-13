@@ -7,7 +7,6 @@ public class DriverFactory {
     }
 
     public static DriverManager getDriverManager(){
-        //Upcasting and downcasting
         DriverManager manager = null;
         Browser browser = Browser.getBrowser();
         switch (browser){

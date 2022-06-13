@@ -36,8 +36,8 @@ public class CreateClientTest extends BaseTest {
     }
 
 
-//    @AfterMethod
-//    public void tearDown(){
-//        manager.stopBrowser();
-//    }
+    @AfterMethod
+    public void tearDown(){
+        manager.stopBrowser();
+    }
 }
